@@ -1,0 +1,23 @@
+body {
+    color: #999;
+}
+
+.field, .dead, .lost {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    width: 400px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: greenyellow;
+    border: 0.2px solid black;
+}
+
+.goblin {
+    background: url('../img/goblin.png');
+    background-size: cover;
+}
